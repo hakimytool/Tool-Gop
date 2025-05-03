@@ -107,7 +107,7 @@ Danh sách lựa chọn: {Colors.red}
 {Colors.yellow}{gach}
 '''
 print(Colorate.Horizontal(Colors.yellow_to_red, Center.XCenter(banner)))
-print(Colors.red + Center.XCenter(Box.DoubleCube("Tool TDS tiktok free version 1.0")))
+print(Colors.red + Center.XCenter(Box.DoubleCube("Tool TDS Tiktok Free Version 1.0")))
 
 
 while True:
@@ -199,7 +199,7 @@ if check_log == 'success':
 				break
 			else:
 				os.system('clear')
-				print(Colors.red + f"Delay tối thiểu là 3\n")
+				print(Colors.red + f"Delay tối thiểu là 5\n")
 		except:
 			os.system('clear')
 			print(Colors.red + f"Hãy nhập một số > 2\n")
@@ -208,14 +208,14 @@ if check_log == 'success':
 	while True:
 		try:
 			max_job = int(Write.Input("Bao nhiêu nhiệm vụ dừng tool:", Colors.green_to_yellow, interval=0.0025))
-			if max_job > 9:
+			if max_job > 15:
 				break
 			else:
 				os.system('clear')
-				print(Colors.red + f"Tối thiểu là 10\n")
+				print(Colors.red + f"Tối thiểu là 15\n")
 		except:
 			os.system('clear')
-			print(Colors.red + f"Hãy nhập một số > 9\n")
+			print(Colors.red + f"Hãy nhập một số > 15\n")
 
 	os.system('clear')
 
